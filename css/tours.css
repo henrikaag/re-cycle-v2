@@ -1,0 +1,321 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 243, 243, 0.856);
+}
+
+.mobile-container {
+    max-width: 100%;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    position: relative;
+  }
+  
+  .topnav a.icon {
+    background: rgb(20, 20, 20);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 21px;
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .active {
+    background-color: rgb(16, 173, 22);
+    color: white;
+    position: relative;
+  }
+
+  .logo {
+      display: inline-block;
+      position: absolute;
+      top: 5px;
+      left: 90px;
+      z-index: 10;
+  }
+
+  /* MAIN */
+
+  #tours-heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    text-decoration: underline;
+  }
+
+  .europe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/europe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px 1px grey;
+    
+  }
+
+  #tours-text {
+      margin: 20px auto;
+      font-size: 17px;
+      width: 300px;
+      text-align: center;
+      line-height: 30px;
+  }
+
+  .france {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/france.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+    
+  }
+
+  #france-text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    width: 300px;
+    margin: 10px auto;
+  }
+
+  .italy {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/italy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -30px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  
+    
+  }
+
+  #italy-text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+  .spain {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/spain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+    
+  }
+
+  #spain-text {
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    width: 300px;
+    margin: 10px auto;
+    margin-bottom: 110px;
+}
+
+
+
+  /* FOOTER */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 14%;
+    width: 100%;
+    background-color: rgba(19, 114, 0, 0.986);
+    color: white;
+    text-align: center;
+  }
+  /* FONT AWSOME ICONS */
+  
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 15px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+
+
+  /*MEDIA QUERIES*/
+
+@media only screen and (min-width: 400px){
+    
+}
+
+@media only screen and (min-width: 1024px){
+
+  body {
+    background-color: rgb(238, 238, 238);
+  }
+
+  .europe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/europe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10px 0px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0px 1px grey;
+    
+  }
+
+  #tours-text {
+    margin: 20px auto;
+    font-size: 25px;
+    width: 500px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.france {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/france.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+
+  #france-text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    width: 300px;
+    margin: 10px auto;
+  }
+
+  .italy {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/italy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -30px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+
+  #italy-text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+  .spain {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/spain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+
+  #spain-text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    width: 265px;
+    margin: 10px auto;
+    margin-bottom: 150px;
+}

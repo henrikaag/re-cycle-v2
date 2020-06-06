@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/contact.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Re-Cycle About Us</title>
+</head>
+<body>
+
+        <header>
+
+                <div class="logo">
+                        <img src="img/logo.png" alt="logo" width=32>
+                      </div>
+            <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+    
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="#home" class="active">Re-Cycle</a>
+          <div id="myLinks">
+            <a href="http://henrikaag.com/projects/CourseAssign/index.html">Home</a>
+            <a href="http://henrikaag.com/projects/CourseAssign/tours.html">Tours</a>
+            <a href="http://henrikaag.com/projects/CourseAssign/aboutus.html">About Us</a>
+            <a href="http://henrikaag.com/projects/CourseAssign/contact.html">Contact Us</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+    
+        
+        <!-- End smartphone / tablet look -->
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+    
+        </header>
+
+
+<main class="main">
+
+<h1>Contact us</h1>
+
+
+<div class="container">
+        <form action="/action_page.php">
+            <div class="row">
+            <div class="col-25">
+                <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="country">What can we help you with?</label>
+            </div>
+            <div class="col-75">
+                <select id="country" name="country">
+                <option value="australia">Technical</option>
+                <option value="canada">Informative</option>
+                <option value="usa">Billing</option>
+                <option value="usa">Booking</option>
+                <option value="usa">Refund</option>
+                <option value="usa">Other</option>
+                </select>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-25">
+                <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Type your question..." style="height:150px"></textarea>
+            </div>
+            </div>
+            <div class="row">
+            <input type="submit" value="Submit">
+            </div>
+        </form>
+</div>
+
+</main>
+
+
+
+
+
+
+<footer>
+    <div class="footer">
+        <p>Follow us on social media! </p>
+        <p id="social-media">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

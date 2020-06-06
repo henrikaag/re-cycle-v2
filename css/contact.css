@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 243, 243, 0.856);
+}
+
+.mobile-container {
+    max-width: 100%;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    position: relative;
+  }
+  
+  .topnav a.icon {
+    background: rgb(20, 20, 20);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 51px;
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .active {
+    background-color: rgb(16, 173, 22);
+    color: white;
+    position: relative;
+  }
+
+  .logo {
+      display: inline-block;
+      position: absolute;
+      top: 5px;
+      left: 90px;
+      z-index: 10;
+  }
+
+
+  /* MAIN */
+
+  .main {
+      font-weight: bold;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  h1 {
+      margin-left: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* FOOTER */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 114, 0, 0.986);
+    color: white;
+    text-align: center;
+  }
+  /* FONT AWSOME ICONS */
+  
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 25px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+
+  /*MEDIA QUERIES*/
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+@media only screen and (min-width: 1024px){
+  .active {
+    background-color: rgb(16, 173, 22);
+    color: white;
+    position: relative;
+  }
+}

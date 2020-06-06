@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Re-Cycle</title>
+</head>
+<body>
+
+
+    <header>
+
+            <div class="logo">
+                    <img src="./img/logo.png" alt="logo" width=32>
+                  </div>
+        <!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="#home" class="active">Re-Cycle</a>
+      <div id="myLinks">
+        <a href="http://henrikaag.com/projects/CourseAssign/index.html">Home</a>
+        <a href="http://henrikaag.com/projects/CourseAssign/tours.html">Tours</a>
+        <a href="http://henrikaag.com/projects/CourseAssign/aboutus.html">About Us</a>
+        <a href="http://henrikaag.com/projects/CourseAssign/contact.html">Contact Us</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    
+    <!-- End smartphone / tablet look -->
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+
+    </header>
+
+
+    <main>
+
+        <section>
+        <img src="./img/background.jpg" class="background-1" alt="background" width= 100%>
+        </section>
+
+        <section>
+            <h2 id=heading>
+                Guided Biking Tour
+            </h2>
+            <p id="text-1">
+                Do you want a guided tour for your vacation, or get to know your city better? We offer a wide range of different tours in cities all over Europe!
+            </p>
+        </section>
+
+        <section>
+            <img src="./img/cycling-tour-1.jpg" class="background-2" alt="cycling-tour-1" width=100%>
+        </section>
+
+        <h2 id=heading>
+          Pick you type of Tour
+      </h2>
+
+        <section class="tours">
+  
+
+                <div>
+                  <img src="./img/tour1.jpg" alt="tour1" class="tour1">
+                  <a href="#" class="button">Book Tour</a>
+                </div>
+                <h1 id="tour1-text-heading">Family Tour</h1>
+                <h2 id="tour1-text">A tour for only your group. This is the perfect choice for a familiy or a friend group!</h2>
+                
+
+                <div>
+                  <img src="./img/tour2.jpg" alt="tour1" class="tour1">
+                  <a href="#" class="button">Book Tour</a>
+                </div>
+                <h1 id="tour2-text-heading">Stranger Tour</h1>
+                <h2 id="tour2-text">Take a tour with other tourists or people from the city, a cheaper option than the</h2>
+                
+
+                <div>
+                  <img src="./img/tour3.jpg" alt="tour1" class="tour1">
+                  <a href="#" class="button">Book Tour</a>
+                </div>
+                <h1 id="tour3-text-heading">Rule the Hills</h1>
+                <h2 id="tour3-text">Do you want to conquer the hills? Take a tour to the hills for a spectacular view!</h2>
+                
+                
+                
+            </section>
+
+    </main>
+
+
+<footer>
+  <div class="footer">
+    <p>Follow us on social media! </p>
+    <p id="social-media">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-snapchat-ghost"></a>
+      <a href="#" class="fa fa-pinterest"></a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,229 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 243, 243, 0.856);
+}
+
+.mobile-container {
+    max-width: 100%;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    position: relative;
+  }
+  
+  .topnav a.icon {
+    background: rgb(20, 20, 20);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 21px;
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .active {
+    background-color: rgb(16, 173, 22);
+    color: white;
+    position: relative;
+  }
+
+  .logo {
+      display: inline-block;
+      position: absolute;
+      top: 5px;
+      left: 90px;
+      z-index: 10;
+  }
+
+
+  /* MAIN */
+
+  .main {
+      margin-bottom: 150px;
+  }
+
+  #heading-1 {
+      text-align: center;
+      margin-top: 50px;
+  }
+
+  #text-1 {
+      text-align: center;
+      line-height: 25px;
+      font-weight: bold;
+  }
+
+  .cyclingmark-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/cyclingmark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -68px 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .info-q {
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+  }
+
+  hr {
+      width: 250px;
+  }
+
+
+  /* FOOTER */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 114, 0, 0.986);
+    color: white;
+    text-align: center;
+  }
+  /* FONT AWSOME ICONS */
+  
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 15px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+
+
+@media only screen and (min-width: 400px){
+    
+}
+
+@media only screen and (min-width: 1024px){
+  .active {
+    background-color: rgb(16, 173, 22);
+    color: white;
+    position: relative;
+  }
+
+  body {
+    background-color: rgb(238, 238, 238);
+  }
+
+  .mobile-container {
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    
+  }
+
+  #heading-1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+  #text-1 {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+}
+
+.cyclingmark-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("../img/cyclingmark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -80px;
+    width: 1080px;
+    height: 450px;
+    border-radius: 20px;
+  }
+
+  .info-q {
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    padding: 10px;
+    font-size: 120%;
+    line-height: 35px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+
+hr {
+    width: 500px;
+}

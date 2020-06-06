@@ -1,0 +1,329 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(243, 243, 243, 0.856);
+}
+
+.mobile-container {
+    max-width: 100%;
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    position: relative;
+  }
+  
+  .topnav a.icon {
+    background: rgb(20, 20, 20);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 21px;
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .active {
+    background-color: rgb(16, 173, 22);
+    color: white;
+    position: relative;
+  }
+
+  .logo {
+      display: inline-block;
+      position: absolute;
+      top: 5px;
+      left: 90px;
+      z-index: 10;
+  }
+
+/* MAIN */
+
+.background-1 {
+    
+}
+
+#heading {
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+#text-1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.background-2 {
+    margin-top: 20px;
+}
+
+/*TOURS */
+
+.tour1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+#tour1-text-heading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Baloo', cursive;
+}
+
+#tour1-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  text-align: center;
+  font-size: 18px;
+  width: 250px;
+}
+
+.tour2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+#tour2-text-heading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Baloo', cursive;
+}
+
+#tour2-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  text-align: center;
+  font-size: 18px;
+  width: 250px;
+}
+
+.tour3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 80%;
+  border-radius: 5px;
+}
+
+#tour3-text-heading {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Baloo', cursive;
+}
+
+#tour3-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  margin-bottom: 150px;
+  text-align: center;
+  font-size: 18px;
+  width: 250px;
+}
+
+/*BUTTON*/
+
+.button {
+  cursor: pointer;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-radius: 5px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(19, 114, 0, 0.986);
+  color: white;
+  text-align: center;
+}
+/* FONT AWSOME ICONS */
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 15px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 400px){
+    
+}
+
+@media only screen and (min-width: 1024px){
+  .active {
+    background-color: rgb(16, 173, 22);
+    color: white;
+    position: relative;
+  }
+
+  body {
+    background-color: rgb(238, 238, 238);
+  }
+
+  .mobile-container {
+    margin: auto;
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    
+  }
+
+  .background-1 {
+    max-height: 400px; 
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .background-2 {
+    margin-top: 200px;
+    max-height: 400px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  #text-1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 350px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+  .tour1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 5px;
+    max-height: 450px;
+    max-width: 800px; 
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .tour2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 5px;
+    max-height: 450px;
+    
+  }
+
+  .tour2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80%;
+    border-radius: 5px;
+
+  }
+}
