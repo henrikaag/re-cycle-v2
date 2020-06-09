@@ -52,7 +52,7 @@
     </header>
 
 
-    <main>
+    <main class="main">
 
 
       
@@ -62,18 +62,18 @@
             <h2 class="form-header">Pick your tour</h2>
 
             <div>
-              <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <form>
+                <label id="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="First name">
             
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label id="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last name">
             
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                  <option value="australia">Australia</option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
+                <label id="tour">Pick your tour</label>
+                <select id="tour" name="tour">
+                  <option value="fm-tour">Familiy Tour</option>
+                  <option value="gruoup-tour">Group Tour</option>
+                  <option value="duo-tour">Duo Tour</option>
                 </select>
               
                 <input type="submit" value="Submit">
@@ -86,6 +86,29 @@
 
     </main>
 
+
+    <section>
+
+
+    <div class="tours-info">
+      <div class="t-1">
+        <h2>Familiy Tour</h2>
+        <p>Take a trip with the familiy. Perfect for all sizes of families. From four to eight people.</p>
+      </div>
+
+      <div class="t-2">
+        <h2>Group Tour</h2>
+        <p>Get grouped up with other strangers. A group consists of up to 10 people. Maybe you make some new friends?</p>
+      </div>
+
+      <div class="t-3">
+        <h2>Duo Tour</h2>
+        <p>Just you and one other. A more personal tour of your choosing.</p>
+      </div>
+    </div>
+
+
+    </section>
 
 <footer>
   <div class="footer">

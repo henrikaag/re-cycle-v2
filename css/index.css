@@ -64,8 +64,8 @@ body {
 
 /* MAIN */
 
-.background {
-}
+
+
 .form-box {
   z-index: 0;
   margin: 50px auto;
@@ -96,7 +96,7 @@ input[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 10px 5px;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 10px;
   border: none;
   border-radius: 4px;
@@ -107,9 +107,27 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+#fname {
+  margin-left: 10px;
+}
+#lname {
+  margin-left: 10px;
+}
+#tour {
+  margin-left: 10px;
+}
+
+.tours-info {
+
+  text-align: center;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
 /* FOOTER */
 
 .footer {
+  margin
   position: fixed;
   left: 0;
   bottom: 0;
@@ -158,4 +176,11 @@ input[type=submit]:hover {
 .fa-pinterest {
   background: #cb2027;
   color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  input[type=submit] {
+    width: 200px;
+    margin-left: 10px;
+  }
 }
